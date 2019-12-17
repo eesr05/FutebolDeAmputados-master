@@ -1,0 +1,116 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(fotos/fundopreto.jpg) center center  no-repeat ;
+
+  background-size: cover;
+}
+.menu{
+  font-family: 'Girassol', cursive;
+}
+.content {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  /* border: blue solid; */
+  top: 5%;
+}
+
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: #fff;
+  font-family: 'Girassol', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: rgb(233, 8, 8);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+.menu hover{
+  text-decoration: none;
+  color: rgb(233, 8, 8);
+}
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: rgb(233, 8, 8);
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+  position: sticky;
+  top:0;
+  
+}
+
+
+
+.cont1{
+      /* border: brown solid; */
+      width: 500px;
+      position: absolute;
+      left:auto;
+      
+      z-index: -1; 
+      
+      
+      
+}
+
+#home{
+   /* border: yellow solid; */
+   box-sizing: border-box;
+   height:auto;
+   /* z-index: 0; */
+}
+
