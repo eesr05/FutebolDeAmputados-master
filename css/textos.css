@@ -1,9 +1,10 @@
+
 .txt{
     text-align: center;
     color: #fff;
     background: #010101;
     /* border: red solid; */
-    height: 400px;
+    height: 550px;
     z-index: -1;
 }
 .meio{
@@ -23,8 +24,10 @@
     font-family: 'Girassol', cursive;
 }
 
-p{
+p{  
+    align-content: center;
     text-align: center;
+    text-indent: inherit;
     font-family: 'Girassol', cursive;
     color: #fff;
     font-size: 15px;
@@ -40,6 +43,9 @@ p{
     /* border: pink solid; */
 
 } 
+
+
+
 /* #home{
     scroll-behavior: smooth;
 } */
@@ -73,14 +79,3 @@ p{
     width:30px;
 }
 
-@media(max-device-width: 480px){
-    .cont1{
-      left: 2%;
-    }
-    .meio{
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto;
-     
-    }
-  }

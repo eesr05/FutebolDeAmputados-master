@@ -12,7 +12,7 @@ body {
 header {
   width: 100%;
   height: 100vh;
-  background: url(fotos/fundopreto.jpg) center center  no-repeat ;
+  background: url("fundo2.jpg") center center  no-repeat ;
 
   background-size: cover;
 }
@@ -33,7 +33,7 @@ header {
   line-height: 60px;
   position: fixed;
   float: left;
-  margin: 16px 46px;
+  margin: 16px 6px;
   color: #fff;
   font-family: 'Girassol', cursive;
   font-weight: bold;
@@ -93,18 +93,12 @@ nav ul li a {
   
 }
 
-
-
 .cont1{
       /* border: brown solid; */
       width: 500px;
       position: absolute;
-      left:auto;
-      
-      z-index: -1; 
-      
-      
-      
+      left:auto;      
+      z-index: -1;       
 }
 
 #home{
@@ -114,3 +108,116 @@ nav ul li a {
    /* z-index: 0; */
 }
 
+
+
+/* .meio-equipe{
+  width: 500px;
+  margin: 4em auto;
+  font-size: 20px;
+  height:300px;
+  text-align: justify;
+  margin-top: 1%;  
+} */
+
+
+@media(max-device-width: 480px){
+  .cont1{
+    left: 2%;
+  }
+  .meio{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+   
+  }
+}
+
+
+
+@media(max-width: 850px) {
+  
+  .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+  }
+
+  nav ul {
+        max-height: 0px;
+        background: #000;
+  }
+
+  nav.black ul {
+        background: #000;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+  .cont1{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    left:auto;
+  }
+  .menu-icon {
+        display: block;
+  }
+  /* .meio-equipe{
+    box-sizing: border-box;
+    width:50%;
+    padding: 24px;
+    text-align: center;
+    left:auto;
+    border: blue solid;
+  } */
+  #muleta-vermelha{
+    visibility: hidden;
+  }
+
+}
+
+
+
+
+
+ /* @media(min-width: 900px){
+    .cont1{
+      right:75%;
+    }
+ } */
+
+ 
+@media(max-device-width: 1084px){
+    .cont1{
+      left: auto;
+      right:auto;
+    }
+    .meio{
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      width: 100%;
+      
+    }
+    /* .meio-equipe{
+      box-sizing: border-box;
+      width: 50%;
+      padding: 24px;
+      text-align: center;
+      left:auto;
+      right: auto;
+    } */
+    .legenda{
+      margin-top:30px;
+    }
+
+  }
